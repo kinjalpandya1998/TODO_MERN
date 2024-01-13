@@ -1,0 +1,104 @@
+.header{
+  height: 100px;
+  width: 100%;
+  /* background-color : #F4FBFF;  */
+  padding-top: 50px;
+  font-family: "KoHo-SemiBold", Helvetica;
+  /* margin: 10px; */
+  color: #1488CC;
+}
+
+.card-wrapper{
+  width: 360px; 
+  height: 240px; 
+  display: flex;
+  margin: 8px;
+  flex-direction: column;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  height: fit-content;
+  padding: 1px 5px !important;
+  text-align: left;
+  border-left: 3px solid;
+  /* border-left-color: #7965C0; */
+  font-family: "Inter-Regular", Helvetica;
+}
+.task-container{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* border-radius: 10px; */
+  /* padding: 5px 0px; */
+}
+
+.circle-icon {
+  background: #000000;
+  padding:10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.deleteIcon{
+  color: #1488CC;
+  font-size:  70px;
+  text-align: center;
+  display: block;
+
+}
+
+.main{
+  height:730px;
+  width: 100%;
+  background-color : #F4FBFF;
+}
+
+.tasklist{
+  height: 80%;
+  width: 95%;
+  background-color: #FFFFFF;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.button{
+  color: #FFFFFF;
+  height: 40px;
+  width: fit-content ;
+  border-color: #1488CC;
+  font-size: large;
+  background-color: #1488cc;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-weight: 600;
+
+}
+
+.buttoncancle{
+  color: #1488CC;
+  height: 40px;
+  width: fit-content ;
+  border-color: #1488CC;
+  font-size: large;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-weight: 600;
+}
